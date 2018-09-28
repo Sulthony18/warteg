@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="414.0" prefWidth="421.0" style="-fx-background-color: red;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="warteg.FXMLDocumentController">
+    <children>
+        <Button fx:id="buttonsoto" layoutX="293.0" layoutY="195.0" onAction="#soto" prefHeight="25.0" prefWidth="72.0" text="SOTO" />
+      <Button fx:id="buttonpecel" layoutX="59.0" layoutY="195.0" onAction="#pecel" prefHeight="25.0" prefWidth="72.0" text="PECEL" />
+      <Button fx:id="buttonrawon" layoutX="175.0" layoutY="195.0" mnemonicParsing="false" onAction="#rawon" prefHeight="25.0" prefWidth="72.0" text="RAWON" />
+      <Label layoutX="163.0" layoutY="28.0" style="-fx-border-color: black;" text="RESEP MAKANAN" textFill="#fffb00" />
+      <TextField fx:id="tampil1" layoutX="59.0" layoutY="65.0" onAction="#tampil" prefHeight="90.0" prefWidth="306.0" />
+    </children>
+</AnchorPane>
